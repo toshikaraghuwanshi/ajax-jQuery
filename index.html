@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  <head>
+    <title>Lance Montana Task 2</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script type='text/javascript' src='jquery.js'></script>
+    <script type='text/javascript' src='scripts.js'></script>
+    <style>
+      section {max-width: 500px; margin: 0 auto}
+      code {background-color: #efefef}
+      code.receive-box {border: 1px solid #000; padding: 10px; width: 100%; background-color: #efefef; border-radius: 4px; display: block; margin-bottom: 20px}
+      a.button {display: block; text-decoration: none;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="site-title"><h1>Site Title</h1></div>
+    </header>
+    <section>
+      <article>
+        <p>For this task you will need to submit an ajax POST request with the variable <code>data</code> to <code>https://onlinetask.lancemontana.com.au/api/random.php</code> when the "Get random result" button is clicked.</p>
+        <p>The script will return an object with two items, a modified version of data you sent and a status, the status is randomised between success, warning and error.</p>
+        <p>Once you receive the result, populate the box below with the received data, and make its text colour green, yellow, or orange for success, warning or error, respectively. This should happen on every click of the "Get random result" button.</p>
+        <p>Make sure you prevent any default action on the hyperlink</p>
+        <code class="receive-box">Replace this text with the returned data according to instructions above</code>
+      </article>
+
+      <a href="https://lancemontana.com.au" class="button">Get random result</a>
+    </section>
+    <footer>
+      &copy; 2022 Site Title
+    </footer>
+  </body>
+</html>
